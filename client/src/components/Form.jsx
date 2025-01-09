@@ -47,7 +47,7 @@ const Form = () => {
       setError('');
       setSuccessMessage('');
 
-      const response = await axios.post('http://localhost:8080/blog', formDataToSubmit, {
+      const response = await axios.post('https://e-cell-blog-server.onrender.com/blog', formDataToSubmit, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
