@@ -11,7 +11,7 @@ const Blog = () => {
     // Fetch the blog data using the ID from the server
     const fetchBlogData = async () => {
       try {
-        const response = await fetch(`http://localhost:8080/fetch`, {
+        const response = await fetch(`https://e-cell-blog-server.onrender.com/fetch`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
